@@ -52,7 +52,7 @@ To my knowledge, these are among the first open-source sentiment resources for B
 - cleaned and de-duplicated the training data, and reported a train/test near-duplicate leak I found in my own results
 - ran tagging and parsing experiments with Hindi as donor data (MuRIL did best on POS tags)
 - opened [issue #1654](https://github.com/stanfordnlp/stanza/issues/1654), where the work started
-
+-PURVA needed Bhojpuri POS tags and Stanza had none, so I built the training data and code for its first Bhojpuri models. Most of my work was preparing that data and training the models, and John Bauer, Stanza’s maintainer, asked for my PURVA corpus to train on. v1.15.0 includes my converter and credits me by name.
 </details>
 
 ## Research
