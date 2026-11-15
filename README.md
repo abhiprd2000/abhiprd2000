@@ -2,7 +2,7 @@
 
 <h1>Abhimanyu Prasad</h1>
 
-<p>I work on Bhojpuri NLP, on whether AI tests can be trusted, and on Rust systems.<br/>Class 12 student in Hazaribagh, Jharkhand, India.</p>
+<p>I work on Bhojpuri NLP, on whether AI tests can be trusted, and on Rust systems.<br/>Class 12 student in India.</p>
 
 <p>
 <img src="https://img.shields.io/badge/papers%20accepted-3-6f42c1?style=for-the-badge" alt="3 papers accepted"/>
@@ -31,7 +31,7 @@ Papers accepted at NeurIPS 2026 (UserSim and ATTRIB) and IEEE AIoT 2026. My Bhoj
 - 🎯 Next: getting more Bhojpuri speakers to check the sentences my models disagree on.
 - 🧑‍🏫 I've run coding sessions for 250 students at my school, though my own subject is Painting.
 - 💻 Fun fact: my laptop is a hand-me-down. I fitted its SSD myself and moved the hard disk into the CD-drive slot.
-- 🎮 Off the keyboard: Rusher in Call of Duty: Mobile, and a run up Canary Hill most mornings.
+- 🎮 Off the keyboard: Rusher in Call of Duty: Mobile.
 
 ## Bhojpuri NLP
 
