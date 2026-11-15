@@ -43,7 +43,7 @@ To my knowledge, these are among the first open-source sentiment resources for B
 | **[Bhojpuri Sentiment Model v2](https://huggingface.co/abhiprd2000/bhojpuri-sentiment-model)** | IndicBERTv2 fine-tuned on PURVA labels. It gets **65.7%** accuracy against human labels on native text, **81%** on news and **83%** on encyclopedic text. |
 | **[Maithili and Hindi](https://huggingface.co/abhiprd2000)** | Maithili_Sentiment_8K dataset, plus Maithili and Hindi sentiment models. |
 
-**[Stanza](https://github.com/stanfordnlp/stanza) (Stanford NLP):** Bhojpuri ships in [v1.15.0](https://github.com/stanfordnlp/stanza/releases/tag/v1.15.0), which credits me by name. Most of my work was preparing the data and training the Bhojpuri models, using PURVA's text and resources. [4 PRs merged](https://github.com/stanfordnlp/stanza/pulls?q=is%3Apr+author%3Aabhiprd2000+is%3Amerged), plus [48 tag fixes](https://github.com/UniversalDependencies/UD_Bhojpuri-BHTB/pull/2) to the UD Bhojpuri treebank.
+**[Stanza](https://github.com/stanfordnlp/stanza) (Stanford NLP):** My Bhojpuri data and converter are part of Stanford's Stanza [v1.15.0](https://github.com/stanfordnlp/stanza/releases/tag/v1.15.0), which credits me. [4 PRs merged](https://github.com/stanfordnlp/stanza/pulls?q=is%3Apr+author%3Aabhiprd2000+is%3Amerged), plus [48 tag fixes](https://github.com/UniversalDependencies/UD_Bhojpuri-BHTB/pull/2) to the UD Bhojpuri treebank.
 
 <details>
 <summary>What I did for Stanza</summary>
@@ -52,7 +52,7 @@ To my knowledge, these are among the first open-source sentiment resources for B
 - cleaned and de-duplicated the training data, and reported a train/test near-duplicate leak I found in my own results
 - ran tagging and parsing experiments with Hindi as donor data (MuRIL did best on POS tags)
 - opened [issue #1654](https://github.com/stanfordnlp/stanza/issues/1654), where the work started
--PURVA needed Bhojpuri POS tags and Stanza had none, so I built the training data and code for its first Bhojpuri models. Most of my work was preparing that data and training the models, and John Bauer, Stanza’s maintainer, asked for my PURVA corpus to train on. v1.15.0 includes my converter and credits me by name.
+- PURVA needed Bhojpuri POS tags and Stanza had none, so I built the data and the converter. Stanza's maintainer asked for my PURVA corpus. v1.15.0 includes my converter and credits me.
 </details>
 
 ## Research
